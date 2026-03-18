@@ -37,6 +37,9 @@ for r in role_menus:
         MANAGER["menu"] = role_menus[r]
     else:
         USER["menu"] = role_menus[r]
+# ------------------------------------------
+
+print("=== 사용자별 접근 메뉴 ===")
 
 # ------------------------------------------
 
